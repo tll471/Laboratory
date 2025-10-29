@@ -92,7 +92,6 @@ int main()
 	lib.ShowAllBooks();
 
 	lib.CloseLibrary();
-	lib.ShowAllBooks();
 
 	lib.TotalBooks(person1);
 	lib.TotalBooks(person2);

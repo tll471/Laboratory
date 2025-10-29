@@ -13,11 +13,10 @@ Book::Book(string name1, string author1, string genre1, bool onthehand, Human* h
 
 Book::Book()
 {
-    //name = "-";
-    //author = "-";
-    //genre = "-";
-    //on_the_hand = false;
-    //holder = Human();
+    name = "-";
+    author = "-";
+    genre = "-";
+    on_the_hand = false;
 }
 
 void Book::Show_Book()
@@ -44,7 +43,6 @@ void Book::ReturnBook()
     on_the_hand = false;
 }
 
-
 Human::Human(string name1, string surname1, int id1)
 {
     name = name1;
@@ -54,9 +52,9 @@ Human::Human(string name1, string surname1, int id1)
 
 Human::Human()
 {
-    //name = "-";
-    //surname = "-";
-    //id = 0;
+    name = "-";
+    surname = "-";
+    id = 0;
 }
 
 void Human::Show()
@@ -64,7 +62,6 @@ void Human::Show()
     cout << "Reader: " << name << " " << surname << " (ID: " << id << ")" << endl;
     cout << "Количество книг на руках человека: " << count << endl;
     cout << endl;
-    cout << total_books << endl;
     cout << endl;
 }
 
